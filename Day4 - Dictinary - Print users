@@ -1,13 +1,20 @@
-
 #Print users in dictinary
-
 user1 = {"username": "Daniel Karlsson", "id": 1}
 user2 = {"username": "Lisette Karlsson", "id": 2}
-
 my_users = [user1, user2]
+#print(my_users)
+#for user in my_users:
+#    print(user["username"])
 
-print(my_users)
+
+#Hitta raden med mailadress
+user1 = {"username": "Daniel Karlsson", "id": 1, "e-mail": "Lanne@live.se"}
+user3 = {"username": "Annie Magnusson", "id": 3, "e-mail": "annie_alice@hotmail.com"}
+my_users = [user1, user2, user3]
 
 for user in my_users:
-    print(user["username"])
-    
+    if "e-mail" in user:
+        print(user["e-mail"])
+
+
+
