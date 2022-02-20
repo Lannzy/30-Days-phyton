@@ -1,0 +1,13 @@
+
+#Print users in dictinary
+
+user1 = {"username": "Daniel Karlsson", "id": 1}
+user2 = {"username": "Lisette Karlsson", "id": 2}
+
+my_users = [user1, user2]
+
+print(my_users)
+
+for user in my_users:
+    print(user["username"])
+    
